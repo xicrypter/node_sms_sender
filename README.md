@@ -22,7 +22,7 @@ Primero debes integrar el repositorio como un submodulo en tu proyecto
 git submodule add https://github.com/xicrypter/node_sms_sender path/to/sms-library
 git submodule update --init --recursive
 ```
-Seguidamente, este un ejemplo de uso para Twilio:
+Este un ejemplo de uso para Twilio en tu propio repositorio:
 
 ```typescript
 import SmsService from './path/to/sms-library/src/SmsService';
