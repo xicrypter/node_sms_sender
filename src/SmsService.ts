@@ -8,8 +8,8 @@ class SmsService {
         this.provider = provider;
     }
 
-    public sendSms(senderId: string, recipient: string, message: string): Promise<any> {
-        return this.provider.sendSms(senderId, recipient, message);
+    public sendSms(senderId: string, recipients: string[], message: string): Promise<any> {
+        return this.provider.sendSms(senderId, recipients, message);
     }
 }
 
